@@ -2,7 +2,7 @@
   position: fixed;
   height: 100%;
   width: 500px;
-  overflow: hidden;
+  overflow: visible;
   background-image: linear-gradient(#360033, #1D2671);
 }
 

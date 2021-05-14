@@ -17,27 +17,40 @@ class SocialMediaIcons extends Component {
           <ul className={styles.socialMediaIcons}>
 
             <li className={styles.socialMediaIcons}>
-                <a className={styles.socialMediaIcons} href="mailto:isabella.aivy.pham@gmail.com">
+              <a className={styles.socialMediaIcons} href="mailto:isabella.aivy.pham@gmail.com">
+                <div className={styles.tooltip}>
                       <FontAwesomeIcon icon={faEnvelope} />
-                </a>
+                  <span className={styles.tooltiptext}>isabella.aivy.pham@gmail.com</span>
+                </div>
+              </a>
             </li>
 
             <li className={styles.socialMediaIcons}>
-                <a className={styles.socialMediaIcons} href="https://www.linkedin.com/in/isabella-pham1/" target="_blank">
-                      <FontAwesomeIcon icon={['fab', 'linkedin']} />
-                </a>
+              <a className={styles.socialMediaIcons} href="https://www.linkedin.com/in/isabella-pham1/" target="_blank">
+                <div className={styles.tooltip}>
+                        <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                  <span className={styles.tooltiptext}>in/isabella-pham1</span>
+                </div>
+              </a>
             </li>
 
             <li className={styles.socialMediaIcons}>
-                <a className={styles.socialMediaIcons} href="https://github.com/Isabella-Pham" target="_blank">
-                      <FontAwesomeIcon icon={['fab', 'github']} />
-                </a>
+              <a className={styles.socialMediaIcons} href="https://github.com/Isabella-Pham" target="_blank">
+                <div className={styles.tooltip}>
+                        <FontAwesomeIcon icon={['fab', 'github']} />
+                  <span className={styles.tooltiptext}>Isabella-Pham</span>
+                </div>
+              </a>
             </li>
 
             <li className={styles.socialMediaIcons}>
-                <a className={styles.socialMediaIcons} href="https://medium.com/phamiliarizing-myself-with-computer-science" target="_blank">
-                      <FontAwesomeIcon icon={['fab', 'medium']} />
-                </a>
+              <a className={styles.socialMediaIcons} href="https://medium.com/phamiliarizing-myself-with-computer-science" target="_blank">
+                <div className={styles.tooltip}>
+                        <FontAwesomeIcon icon={['fab', 'medium']} />
+
+                  <span className={styles.tooltiptext}>Phamiliarizing Myself with Computer Science</span>
+                </div>
+              </a>
             </li>
 
           </ul>
