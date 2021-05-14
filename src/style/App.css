@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  min-height: 70px;
+  background-color: #5d4954;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+li.navbar {
+  float: left;
+}
+
+li.navbar a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+}
+
+li.navbar a:hover {
+  background-color: #4d3c45;
+}

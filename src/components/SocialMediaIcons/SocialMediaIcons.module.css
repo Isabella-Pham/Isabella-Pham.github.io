@@ -1,0 +1,110 @@
+.socialMediaIconsContainer {
+  position: relative;
+  margin-top: 30px;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+a.socialMediaIcons{
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+  border: none;
+}
+
+ul.socialMediaIcons{
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+ul li.socialMediaIcons {
+  position: relative;
+  display: block;
+  color: #666;
+  font-size: 25px;
+  height: 60px;
+  width: 60px;
+  background: #171515;
+  line-height: 60px;
+  border-radius: 50%;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+ul li.socialMediaIcons:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  z-index: -1;
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+ul li.socialMediaIcons:hover:before{
+  filter: blur(3px);
+  transform: scale(1.2);
+}
+
+/*email icon*/
+ul li:nth-child(1):before{
+  background: #739973;
+}
+ul li:nth-child(1):hover:before{
+  box-shadow: 0 0 15px #739973;
+}
+ul li.socialMediaIcons:nth-child(1):hover{
+  color: #99c999;
+  box-shadow: 0 0 15px #739973;
+  text-shadow: 0 0 15px #739973;
+}
+
+/*linkedin icon*/
+ul li:nth-child(2):before{
+  background: #2867B2;
+}
+ul li:nth-child(2):hover:before{
+  box-shadow: 0 0 15px #2867B2;
+}
+ul li.socialMediaIcons:nth-child(2):hover{
+  color: #2a6cbb;
+  box-shadow: 0 0 15px #2867B2;
+  text-shadow: 0 0 15px #2867B2;
+}
+
+/*github icon*/
+ul li:nth-child(3):before{
+  background: #914c43;
+}
+ul li:nth-child(3):hover:before{
+  box-shadow: 0 0 15px #914c43;
+}
+ul li.socialMediaIcons:nth-child(3):hover{
+  color: #AD5C51;
+  box-shadow: 0 0 15px #914c43;
+  text-shadow: 0 0 15px #914c43;
+}
+
+/*medium icon*/
+ul li:nth-child(4):before{
+  background: #EEEADE;
+}
+ul li:nth-child(4):hover:before{
+  box-shadow: 0 0 15px #EEEADE;
+}
+ul li.socialMediaIcons:nth-child(4):hover{
+  color: #d6d2c5;
+  box-shadow: 0 0 15px #EEEADE;
+  text-shadow: 0 0 15px #EEEADE;
+}

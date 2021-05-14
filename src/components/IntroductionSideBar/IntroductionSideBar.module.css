@@ -1,0 +1,34 @@
+.SideBarContainer {
+  position: fixed;
+  height: 100%;
+  width: 500px;
+  overflow: hidden;
+  background-image: linear-gradient(#360033, #1D2671);
+}
+
+.ContentContainer {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+img {
+  position: relative;
+  top: 70px;
+  width: 300px;
+  margin: 40px;
+}
+
+h1.IntroductionSideBar {
+  color: white;
+}
+
+h2.IntroductionSideBar {
+  color: white;
+}
+
+p.IntroductionSideBar {
+  color: white;
+  word-spacing: 25px;
+}
