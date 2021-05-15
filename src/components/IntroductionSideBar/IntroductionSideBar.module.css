@@ -40,4 +40,9 @@ p.IntroductionSideBar {
       margin-right: auto;
       margin-left: auto;
   }
+
+  .ContentContainer {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
