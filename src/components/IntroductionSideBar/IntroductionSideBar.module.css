@@ -32,3 +32,11 @@ p.IntroductionSideBar {
   color: white;
   word-spacing: 25px;
 }
+
+/* tablet, landscape iPad, lo-res laptops ands desktops */
+@media (min-width:801px)  {
+  .ContentContainer {
+      margin-right: auto;
+      margin-left: auto;
+  }
+}
