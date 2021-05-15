@@ -2,7 +2,6 @@
   position: fixed;
   height: 100%;
   width: 500px;
-  overflow: visible;
   background-image: linear-gradient(#360033, #1D2671);
 }
 
@@ -17,7 +16,7 @@ img {
   position: relative;
   top: 70px;
   width: 300px;
-  margin-top: 150px;
+  margin-top: 25%;
   margin-bottom: 40px;
 }
 
@@ -32,17 +31,4 @@ h2.IntroductionSideBar {
 p.IntroductionSideBar {
   color: white;
   word-spacing: 25px;
-}
-
-/* tablet, landscape iPad, lo-res laptops ands desktops */
-@media (min-width:801px)  {
-  .SideBarContainer {
-      margin-right: auto;
-      margin-left: auto;
-  }
-
-  .ContentContainer {
-    margin-right: auto;
-    margin-left: auto;
-  }
 }
