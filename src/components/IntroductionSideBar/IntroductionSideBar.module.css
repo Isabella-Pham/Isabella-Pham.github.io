@@ -17,7 +17,8 @@ img {
   position: relative;
   top: 70px;
   width: 300px;
-  margin: 40px;
+  margin-top: 150px;
+  margin-bottom: 40px;
 }
 
 h1.IntroductionSideBar {
@@ -35,7 +36,7 @@ p.IntroductionSideBar {
 
 /* tablet, landscape iPad, lo-res laptops ands desktops */
 @media (min-width:801px)  {
-  .ContentContainer {
+  .SideBarContainer {
       margin-right: auto;
       margin-left: auto;
   }
