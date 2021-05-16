@@ -12,7 +12,7 @@ class KimiNoNaWaBackgroundVideo extends Component {
         <div className={styles.ContentContainer} >
           <img src="/assets/chips.gif" />
           <h1 className={styles.IntroductionSideBar}>isabella pham</h1>
-          <h2 className={styles.IntroductionSideBar}>undergrad junior at rutgers university</h2>
+          <h2 className={styles.IntroductionSideBar}>i write code</h2>
           <SocialMediaIcons />
         </div>
       </div>
