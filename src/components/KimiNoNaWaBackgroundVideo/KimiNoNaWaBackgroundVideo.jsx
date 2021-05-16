@@ -7,7 +7,7 @@ class KimiNoNaWaBackgroundVideo extends Component {
     const videoSource = "assets/kimiNoNaWa.mp4";
     return (
       <div className={styles.Container} >
-        <video autoPlay muted loop className={styles.Video} >
+        <video autoPlay muted loop playsinline className={styles.Video} >
             <source src={videoSource} type="video/mp4" />
             Your browser does not support the video tag.
         </video>
