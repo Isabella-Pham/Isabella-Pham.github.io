@@ -4,7 +4,7 @@ import styles from './KimiNoNaWaBackgroundVideo.module.css';
 
 class KimiNoNaWaBackgroundVideo extends Component {
   render() {
-    const videoSource = "/assets/kimiNoNaWa.mp4";
+    const videoSource = "assets/kimiNoNaWa.mp4";
     return (
       <div className={styles.Container} >
         <video autoPlay muted loop className={styles.Video} >

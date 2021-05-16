@@ -1,5 +1,10 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
 nav {
-  position: relative;
+  position: fixed;
   width: 100%;
   z-index: 9999;
   display: flex;
@@ -7,8 +12,8 @@ nav {
   align-items: center;
   min-height: 70px;
   background-color: #5d4954;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
   overflow: hidden;
 }
