@@ -4,11 +4,16 @@ import styles from './KimiNoNaWaBackgroundVideo.module.css';
 
 class KimiNoNaWaBackgroundVideo extends Component {
   render() {
-    const videoSource = "assets/kimiNoNaWa.mp4";
+    var videoSource = "assets/kimiNoNaWa.mp4";
+    //iOS is really buggy with playsinline and webkit-playsinline
+    // and may play the background video in full screen
+    if(window.screen.width < 500){
+      videoSource = "";
+    }
+
     return (
       <div className={styles.Container} >
-        <video autoPlay muted loop playsinline className={styles.Video} >
-            <source src={videoSource} type="video/mp4" />
+        <video src={videoSource} autoPlay muted loop playsinline webkit-playsinline className={styles.Video}>
             Your browser does not support the video tag.
         </video>
       </div>
