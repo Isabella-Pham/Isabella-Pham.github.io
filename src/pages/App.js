@@ -7,6 +7,7 @@ import styles from '../style/App.css'
 
 import Home from './home';
 import About from './about';
+import Status from './status';
 
 class App extends Component {
   render() {
@@ -15,12 +16,12 @@ class App extends Component {
             <nav>
             <ul className="navbar">
               <li className="navbar"><Link to={'/'} className="nav-link"> home </Link></li>
-              <li className="navbar"><Link to={'/about'} className="nav-link"> about </Link></li>
+              <li className="navbar"><Link to={'/status'} className="nav-link"> status </Link></li>
             </ul>
             </nav>
             <Switch>
                 <Route exact path='/' component={Home} />
-                <Route path='/about' component={About} />
+                <Route path='/status' component={Status} />
             </Switch>
         </Router>
     );
