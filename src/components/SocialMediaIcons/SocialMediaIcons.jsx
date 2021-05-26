@@ -9,6 +9,7 @@ import styles from './SocialMediaIcons.module.css';
 
 library.add(fab)
 
+/* Code below is inspired by https://codingnepalweb.com/glowing-social-media-icons-html-css/ */
 class SocialMediaIcons extends Component {
   render() {
     return (
