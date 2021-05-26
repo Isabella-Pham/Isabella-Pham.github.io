@@ -10,9 +10,15 @@ class KimiNoNaWaBackgroundVideo extends Component {
     return (
       <div className={styles.SideBarContainer} >
         <div className={styles.ContentContainer} >
+          <div className={styles.stars} id="stars"></div>
+          <div className={styles.stars2} id="stars2"></div>
+          <div className={styles.stars3} id="stars3"></div>
           <img src="../../assets/chips.gif" />
-          <h1 className={styles.IntroductionSideBar}>isabella pham</h1>
-          <h2 className={styles.IntroductionSideBar}>i write code</h2>
+          <div className={styles.title} id="title">
+            <span>
+              Isabella Pham
+            </span>
+          </div>
           <SocialMediaIcons />
         </div>
       </div>
