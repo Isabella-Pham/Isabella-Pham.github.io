@@ -9,8 +9,7 @@
 }
 
 body.about{
-  background-image: url("../backgrounds/umi_da.jpg");
-  filter: brightness(50%);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../backgrounds/umi_da.jpg");
   overflow: hidden;
 }
 
